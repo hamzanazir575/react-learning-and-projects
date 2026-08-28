@@ -9,7 +9,7 @@ import {
 } from '../../utils/helpers';
 import OrderItem from './OrderItem';
 import { useEffect } from 'react';
-import UpdateOrder from './updateOrder';
+import UpdateOrder from './UpdateOrder';
 
 function Order() {
   const order = useLoaderData();
